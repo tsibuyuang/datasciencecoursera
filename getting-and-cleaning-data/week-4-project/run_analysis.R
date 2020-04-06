@@ -77,5 +77,5 @@ tidyData2 <-
   summarise_all(mean)
   
 # Section 5: Export the tidyData  
-write.table(tidyData, './tidyData.csv',row.names=TRUE,sep='\t')
-write.table(tidyData2, './tidyData2.csv',row.names=TRUE,sep='\t')
+write.table(tidyData2, './tidyData.txt',row.names=FALSE,sep='\t')
+# write.table(tidyData, './tidyData.txt',row.names=FALSE,sep='\t')
